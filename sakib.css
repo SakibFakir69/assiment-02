@@ -50,6 +50,20 @@ body {
     border: 2px solid red;
     justify-content: space-between;
     padding: 1em;
+    /* margin-left: 1px; */
+
+
+
+}
+
+@media (max-width:576px) {
+    #navbar{
+        margin-left: 4px;
+    }
+    
+}
+#problem_nav{
+    margin:0 auto;
 }
 
 ul li {
@@ -573,7 +587,7 @@ b {
 }
 
 #habbit_h3 {
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: 900;
     font-size: 3.0rem;
     color: white;
@@ -634,6 +648,7 @@ b {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-left: 5px;
     }
 
     #habbit_h3 {
@@ -962,7 +977,9 @@ td {
 
 @media (max-width:576px) {
     #your_bmi {
-        text-align: left;
+        text-align: center;
+    
+
 
     }
 
@@ -982,7 +999,9 @@ td {
 
         height: 620px;
         width: 100%;
-        border: 2px solid red;
+        border: 2px solid rgb(64, 33, 33);
+        margin-left:7px;
+
     }
 
     #box_input {
@@ -992,10 +1011,11 @@ td {
 
     #box_bmi {
         /* margin-top:100px; */
-        height: 420px;
+        height: 450px;
         border: 2px solid red;
-        width: 100%;
+        width: 90%;
         padding: 1em;
+        margin: 0 auto;
 
 
     }
@@ -1023,6 +1043,8 @@ td {
     display: flex;
     justify-content: center;
     padding: 1em;
+
+
 }
 
 #subcription {
@@ -1074,6 +1096,7 @@ td {
     #subcription_box {
         height: 400px;
         width: 100%;
+        margin-left: 5px;
     }
 
     #sub_box,
@@ -1175,6 +1198,7 @@ td {
     border: 2px solid white;
     justify-items: center;
     padding: 1em;
+    margin: 0 auto;
 }
 
 #team_head {
@@ -1183,6 +1207,7 @@ td {
     border: 2px solid red;
     text-wrap: wrap;
     text-align: center;
+
 }
 
 #team {
@@ -1268,7 +1293,8 @@ td {
     #meet_our_team {
         height: 1680px;
         width: 100%;
-        margin: 0 auto;
+        margin-left:5px;
+       
 
     }
 
