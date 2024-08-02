@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="sakib.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
 </head>
 <!-- make spical section -->
@@ -27,7 +28,7 @@
                             <li class="nav">Contac</li>
                             <li class="nav">About</li>
                             <i class="ri-menu-line"></i>
-                           
+
 
                         </ul>
 
@@ -57,12 +58,12 @@
                 <div id="banner_img">
                     <div id="banner_border_01">
                         <b>5000+</b>
-                        <p>Student</p>
+                        <p style="color: white;">Student</p>
                     </div>
                     <div id="banner_border_02">
                         <i class="ri-play-circle-fill"></i>
                         <b>3500+</b>
-                        <p>Active</p>
+                        <p style="color:white">Active</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +136,11 @@
     </header>
     <main>
         <section id="main_box">
-        
+            <div id="your_bmi">
+                <h1 id="your_bmi_h2">Bmi calcalutoer</h1>
+                <p id="your_bmi_p">Evey time any where calcaluate your bmi</p>
+            </div>
+
             <section id="main_box2">
 
                 <div id="main_box3">
@@ -143,14 +148,21 @@
                         <div style="color:white">Clac you bmi </div>
                         <br>
                         <!-- box 1 -->
-                        <input type="text" class="input1">
-                        <input type="text" class="input2">
-                        <input type="text" class="input3">
-                        <input type="text" class="input4">
-                        <input type="text" class="input5">
+                        <input type="text" class="input1" placeholder="height/cm">
+                        <input type="text" class="input2" placeholder="Weight/kg">
+                        <input type="text" class="input3" placeholder="Age">
+
+                        <select class="input4" style="height:50px" >
+                            <option>Sex</option>
+
+                        </select>
+                        <!-- <input type="" class="input5" placeholder="select activity factor"> -->
+                        <select class="input5" style="background-color: transparent; color:rgb(149, 143, 143)">
+                            <option>Select an activity factor</option>
+                        </select>
                         <br>
-                        
-                        <button>Calcaute</button>
+
+                        <button id="input_button">Calcaute</button>
 
                     </div>
 
@@ -162,7 +174,7 @@
                             <table id="tabel">
                                 <tr>
                                     <td>BMI</td>
-                                    <td>Result</td>
+                                    <td>Weight Status</td>
                                 </tr>
                                 <tr>
                                     <td>18.5-25.9</td>
@@ -170,7 +182,11 @@
                                 </tr>
                                 <tr>
                                     <td>29.9-30.0</td>
-                                    <td>Unhgealty</td>
+                                    <td>overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0-ans Avobe</td>
+                                    <td>obese</td>
                                 </tr>
                             </table>
                         </tabel>
@@ -179,8 +195,113 @@
             </section>
         </section>
 
+
+        <!-- extrta section -->
+        <section id="guide">
+            <div>
+                <h1>Subcription for Guide</h1>
+            </div>
+
+        </section>
+        <section>
+            <div id="subcription_box">
+                <!-- <h1>Subcription for health and guide</h1> -->
+                <div id="subcription">
+                    <div id="sub_box">
+                        <h2 class="sub_h2">Monthly </h2>
+                        <b class="sub_b">Price : $3.99</b>
+                        <button class="sub_button">Buy</button>
+
+                    </div>
+                    <div id="sub_box2">
+                        <h2 class="sub_h2"> 6 Month </h2>
+                        <b class="sub_b">Price : $15.99</b>
+                        <button class="sub_button">Buy</button>
+
+                    </div>
+                    <div id="sub_box3">
+                        <h2 class="sub_h2">1 year </h2>
+                        <b class="sub_b">Price : $29.99</b>
+                        <button class="sub_button">Buy</button>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
     <footer>
+        <!-- meet our team -->
+        <section id="meet_our_team">
+            <div id="team_head">
+                <h2 style="color:white; font-size: 1.5rem; font-weight: 700;">Meet our team</h2>
+                <p style="color:rgb(199, 195, 195)">Our team average exprience 6 year plus</p>
+            </div>
+
+            <div id="team">
+                <div id="img_01" class="team-member">
+                    <p class="name">name 01</p>
+                </div>
+                <div id="img_02" class="team-member">
+                    <p class="name">name 02</p>
+                </div>
+                <div id="img_03" class="team-member">
+                    <p class="name">name 03</p>
+                </div>
+                <div id="img_04" class="team-member">
+                    <p class="name">name 04</p>
+                </div>
+                <div id="img_05" class="team-member">
+                    <p class="name">name 05</p>
+                </div>
+                <div id="img_06" class="team-member">
+                    
+                    <p class="name">name 06</p>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- get started -->
+
+        <section id="last_footer">
+            <div id="last_fit">
+                <h2 id="fit_color">Fitness</h2>
+                <p class="ok">Fitness body make a man perfect </p>
+            </div>
+            <div id="last_get">
+                <b>Get Started</b>
+                <nav>
+                    <li class="ok">Service</li>
+                    <li class="ok">Contact us</li>
+                    <li class="ok">Affiliate Programe</li>
+                    <li class="ok">About us</li>
+                </nav>
+            </div>
+            <div>
+                <b>Get Started</b>
+                <nav>
+                    <li class="ok">Fitness</li>
+                    <li class="ok">Paltfrom</li>
+                    <li class="ok">Workout Libariy</li>
+                    <li class="ok">App Degsine</li>
+                </nav>
+            </div>
+        </section>
+
+
+        <section>
+            <h1 id="line"></h1>
+        </section>
+
 
     </footer>
 
