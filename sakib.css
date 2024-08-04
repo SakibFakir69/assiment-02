@@ -717,7 +717,7 @@ b {
     padding: 1em;
     border-radius: 6px;
     background-color: rgb(34, 34, 34);
-    box-shadow: 4px 4px 4px black;
+    box-shadow: 4px 6px 6px 6px rgba(10, 10, 10, 0.904);
     border-radius: 5px;
     flex-direction: column;
   }
@@ -771,12 +771,14 @@ span {
   height: 350px;
   width: 100%;
   border: 2px solid red;
+  text-align: center;
 }
 
 #main_box2 {
   height: 320px;
   width: 100%;
   border: 2px solid green;
+  text-align: center;
 }
 
 #main_box3 {
@@ -784,18 +786,22 @@ span {
   width: 100%;
   border: 2px solid yellow;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-content: space-evenly;
   flex-direction: row-reverse;
+  text-align: center;
+
 }
 
 #box_input {
-  height: 300px;
-  width: 100%;
+  height: 330px;
+  width: 80%;
   border: 2px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 5px;
   gap: 5px;
+  text-align: center;
 }
 
 input {
@@ -815,20 +821,26 @@ input {
 #box_bmi {
   height: 300px;
   border: 2px solid red;
-  width: 100%;
+  width: 80%;
   padding: 1em;
 }
 
 #mid {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #tabel {
   height: 140px;
   width: 100%;
 }
+th{
+  border:2px solid rgb(0, 0, 0);
+  height:45px;
+  color: white;
 
+}
 td {
   height: 45px;
   width: 100%;
@@ -855,6 +867,11 @@ td {
 #your_bmi {
   text-align: center;
   color: white;
+  height:90px;
+  width:100%;
+  margin-top: -5px;
+
+
 }
 
 #your_bmi_h2 {
@@ -871,17 +888,19 @@ td {
 @media (max-width: 576px) {
   #your_bmi {
     text-align: center;
+    height:30px;
+
   }
 
   #main_box2 {
-    margin-top: 120px;
+    margin-top: -40px;
   }
 
   #main_box3 {
     /* margin-top:30px; */
-    margin-top: 180px;
+    margin-top: 220px;
     flex-direction: column-reverse;
-    height: 320px;
+    height: 340px;
     border: 2px solid red;
     width: 98%;
   }
@@ -894,13 +913,15 @@ td {
   }
 
   #box_input {
-    height: 430px;
+    margin-top: 20px;
+    height: 590px;
     width: 100%;
+    text-align: center;
   }
 
   #box_bmi {
     /* margin-top:100px; */
-    height: 450px;
+    height: 500px;
     border: 2px solid red;
     width: 90%;
     padding: 1em;
@@ -921,6 +942,26 @@ td {
     font-size: 0.9rem;
     letter-spacing: 1px;
     font-weight: 400;
+  }
+  #input_bmi_las{
+    height:80px;
+    width:100%;
+  }
+  #h2_box{
+    font-size: 1.2rem;
+    margin:0 auto;
+    height:30px;
+    width:100%;
+    text-align: center;
+    margin-left: 80px;
+  }
+  #p_box{
+    width:100%;
+    text-align: center;
+    margin-left:140px;
+  }
+  input{
+    font-size: 1rem;
   }
 }
 
@@ -970,16 +1011,25 @@ td {
 
 @media (max-width: 576px) {
   #subcription {
-    /* margin-top: 60px; */
+    margin-top: 60px;
     flex-direction: column;
     height: 250px;
     width: 100%;
+  }
+  #sakib_h1{
+    margin-top: 130px;
   }
 
   #subcription_box {
     height: 400px;
     width: 100%;
     margin-left: 5px;
+    margin-top: 20px;
+
+
+  }
+  #guide{
+    margin-top: 50px;
   }
 
   #sub_box,
@@ -1059,7 +1109,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 /* last 2 section */
@@ -1159,6 +1209,7 @@ td {
     height: 1680px;
     width: 100%;
     margin-left: 5px;
+    margin-top: 50px;
   }
   .team-member{
     border-radius: 14px;
@@ -1303,4 +1354,17 @@ td {
 .last_p{
     border-top: 1px solid rgb(212, 203, 203);
     color:white;
+}
+
+
+/* input_bmi_last */
+#input_bmi_last{
+  height:50px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
 }
