@@ -45,7 +45,7 @@ body {
   height: 50px;
   width: 100%;
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   justify-content: space-between;
   padding: 1em;
   /* margin-left: 1px; */
@@ -78,8 +78,10 @@ b {
 #header {
   height: 430px;
   width: 100%;
+
   /* background-color: rgb(21, 21, 21); */
   background-image: linear-gradient(to bottom, #141414, #222222, #141414);
+  margin:0 auto;
 }
 
 /* start banner section */
@@ -93,14 +95,14 @@ b {
   align-items: center;
   padding: 4em;
   margin: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 #banner_box_1 {
   height: 330px;
   width: 70%;
   color: white;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   justify-content: center;
   align-content: left;
@@ -110,7 +112,7 @@ b {
 #banner_img {
   height: 350px;
   width: 50%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: url("./images/Images\ 2.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -126,7 +128,7 @@ b {
 
 #banner_h2 {
   width: 80%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   font-weight: 700;
   max-height: 450px;
   font-size: 3rem;
@@ -251,14 +253,14 @@ b {
     height: 350px;
     width: 100%;
     color: white;
-    border: 2px solid rgb(41, 158, 41);
+    /* border: 2px solid rgb(41, 158, 41); */
     display: flex;
   }
 
   #banner_img {
     height: 400px;
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url("./images/Images\ 2.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -273,7 +275,7 @@ b {
 
   #banner_h2 {
     height: 370px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     font-weight: 900;
     font-size: 3rem;
     color: var(--pothom-color);
@@ -333,14 +335,14 @@ b {
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
   }
 
   #banner_box_1 {
     height: 700px;
     width: 100%;
     color: white;
-    border: 2px solid rgb(225, 255, 0);
+    /* border: 2px solid rgb(225, 255, 0); */
     display: flex;
     justify-content: center;
     align-content: left;
@@ -350,7 +352,7 @@ b {
   #banner_img {
     height: 550px;
     width: 90%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url("./images/Images\ 2.png");
     background-repeat: no-repeat;
     background-position:center;
@@ -370,7 +372,7 @@ b {
     height: 150px;
     width: 90%;
     letter-spacing: -3.4px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     font-weight: 900;
     font-size: 2.5rem;
     color: var(--pothom-color);
@@ -511,7 +513,7 @@ b {
   margin-top: 30px;
   height: 100px;
   width: 100%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -537,7 +539,7 @@ b {
     margin-top: 30px;
     height: 150px;
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -565,7 +567,7 @@ b {
     margin-top: 30px;
     height: 150px;
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -604,7 +606,7 @@ b {
   /* margin-top: 30px */
   height: 200px;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -630,7 +632,7 @@ b {
     margin-top: 30px;
     height: 650px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -671,7 +673,7 @@ b {
   margin: 0 auto;
   height: 400px;
   width: 90%;
-  border: 1px solid rgb(30, 28, 28);
+  border: 2px solid rgb(11, 11, 11);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -770,21 +772,21 @@ span {
   margin-top: 900px;
   height: 350px;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center;
 }
 
 #main_box2 {
   height: 320px;
   width: 100%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   text-align: center;
 }
 
 #main_box3 {
   height: 310px;
   width: 100%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   justify-content: center;
   align-content: space-evenly;
@@ -796,14 +798,16 @@ span {
 #box_input {
   height: 330px;
   width: 80%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 5px;
+  padding: 1em;
   gap: 5px;
   text-align: center;
 }
-
+td{
+  border:2px solid black;
+}
 input {
   padding: 0.6em;
   height: 50px;
@@ -820,7 +824,7 @@ input {
 
 #box_bmi {
   height: 300px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 80%;
   padding: 1em;
 }
@@ -860,7 +864,7 @@ td {
     margin-top: 1490px;
     height: 350px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 }
 
@@ -901,14 +905,14 @@ td {
     margin-top: 220px;
     flex-direction: column-reverse;
     height: 340px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 98%;
   }
 
   #main_box {
     height: 620px;
     width: 100%;
-    border: 2px solid rgb(64, 33, 33);
+    /* border: 2px solid rgb(64, 33, 33); */
     margin-left: 7px;
   }
 
@@ -922,7 +926,7 @@ td {
   #box_bmi {
     /* margin-top:100px; */
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 90%;
     padding: 1em;
     margin: 0 auto;
@@ -969,7 +973,7 @@ td {
 #subcription_box {
   height: 200px;
   width: 100%;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   display: flex;
   justify-content: center;
   padding: 1em;
@@ -1118,7 +1122,7 @@ td {
 #meet_our_team {
   height: 720px;
   width: 100%;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   justify-items: center;
   padding: 1em;
   margin: 0 auto;
@@ -1127,7 +1131,7 @@ td {
 #team_head {
   height: 70px;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-wrap: wrap;
   text-align: center;
 }
@@ -1160,7 +1164,14 @@ td {
   background-position: center;
   /* background-position: center; */
 }
-
+input{
+  font-size: 1.2rem;
+  border:2px solid black;
+}
+select{
+  border:2px solid black;
+  font-size: 1.2rem;
+}
 #img_03 {
   height: 250px;
   width: 100%;
@@ -1189,7 +1200,7 @@ td {
 }
 
 #img_06 {
-  height: 250px;
+  height: 280px;
   width: 100%;
   background-image: url("./images/trainer6.png");
   background-repeat: no-repeat;
@@ -1197,6 +1208,23 @@ td {
   background-position: center;
 }
 
+/* problem + img  */
+.team_h2_color{
+  text-align: center;
+  color:rgb(235, 234, 234);
+  font-size: 1.8rem;
+  margin-top: -20px;
+
+}
+.name{
+  font-size: 1.4rem;
+  color:rgb(0, 0, 0);
+  display: grid;
+  place-content: center;
+  font-weight: 500;
+  margin-top: -10px;
+  font-weight: 600;
+}
 /* how make all imge height width same */
 @media (max-width: 576px) {
   #team {
@@ -1204,22 +1232,49 @@ td {
     margin: 0 auto;
     /* img center */
   }
+  .name{
+    color:blanchedalmond;
+    margin-top: -1px;
+  }
 
   #meet_our_team {
     height: 1680px;
     width: 100%;
     margin-left: 5px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .team-member{
     border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
   }
+  #img_06 {
+    height: 250px;
+  }
+  #img_03 {
+    height: 220px;
+  }
+  input{
+    font-size: 1rem;
+    border:2px solid black;
+  }
+  select{
+    border:2px solid black;
+    font-size: 1rem;
+  }
+  .team_h2_color{
+    font-size: 1.2rem
+  }
+  
 }
 
 .team-member {
   height: 250px;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -1341,13 +1396,9 @@ td {
   border-radius: 4px;
 }
 
-.name {
-  color: rgb(186, 185, 185);
-}
+
 /* not update problem face  */
-.team_h2_color{
-    color:rgb(229, 221, 221);
-}
+
 #right{
     border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -1368,3 +1419,5 @@ td {
 
 
 }
+
+
