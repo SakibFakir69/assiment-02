@@ -81,7 +81,7 @@ b {
 
   /* background-color: rgb(21, 21, 21); */
   background-image: linear-gradient(to bottom, #141414, #222222, #141414);
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 /* start banner section */
@@ -309,8 +309,6 @@ b {
     color: var(--seconde-color);
     letter-spacing: 0.2px;
   }
-
- 
 }
 
 /* mobile */
@@ -320,7 +318,7 @@ b {
   }
 
   #header {
-    height: 650px;
+    height: 680px;
     width: 100%;
     background-color: rgb(21, 21, 21);
   }
@@ -329,7 +327,7 @@ b {
 
   #banner_section {
     margin-top: -40px;
-    height: 750px;
+    height: 690px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -355,8 +353,8 @@ b {
     /* border: 2px solid red; */
     background-image: url("./images/Images\ 2.png");
     background-repeat: no-repeat;
-    background-position:center;
-    background-size:200px;
+    background-position: center;
+    background-size: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,7 +362,7 @@ b {
     position: relative;
     padding: 1em;
     overflow: hidden;
-    margin:0 auto;
+    margin: 0 auto;
     object-fit: conta;
   }
 
@@ -406,8 +404,8 @@ b {
 
   #banner_p {
     margin-top: -20px;
-    height:70px;
-    width:80%;
+    height: 70px;
+    width: 80%;
     font-weight: 400;
     margin-top: 5px;
     font-size: 0.9rem;
@@ -792,7 +790,6 @@ span {
   align-content: space-evenly;
   flex-direction: row-reverse;
   text-align: center;
-
 }
 
 #box_input {
@@ -805,8 +802,8 @@ span {
   gap: 5px;
   text-align: center;
 }
-td{
-  border:2px solid black;
+td {
+  border: 2px solid black;
 }
 input {
   padding: 0.6em;
@@ -839,11 +836,10 @@ input {
   height: 140px;
   width: 100%;
 }
-th{
-  border:2px solid rgb(0, 0, 0);
-  height:45px;
+th {
+  border: 2px solid rgb(0, 0, 0);
+  height: 45px;
   color: white;
-
 }
 td {
   height: 45px;
@@ -871,11 +867,9 @@ td {
 #your_bmi {
   text-align: center;
   color: white;
-  height:90px;
-  width:100%;
+  height: 90px;
+  width: 100%;
   margin-top: -5px;
-
-
 }
 
 #your_bmi_h2 {
@@ -892,8 +886,7 @@ td {
 @media (max-width: 576px) {
   #your_bmi {
     text-align: center;
-    height:30px;
-
+    height: 30px;
   }
 
   #main_box2 {
@@ -947,24 +940,24 @@ td {
     letter-spacing: 1px;
     font-weight: 400;
   }
-  #input_bmi_las{
-    height:80px;
-    width:100%;
+  #input_bmi_las {
+    height: 80px;
+    width: 100%;
   }
-  #h2_box{
+  #h2_box {
     font-size: 1.2rem;
-    margin:0 auto;
-    height:30px;
-    width:100%;
+    margin: 0 auto;
+    height: 30px;
+    width: 100%;
     text-align: center;
     margin-left: 80px;
   }
-  #p_box{
-    width:100%;
+  #p_box {
+    width: 100%;
     text-align: center;
-    margin-left:140px;
+    margin-left: 140px;
   }
-  input{
+  input {
     font-size: 1rem;
   }
 }
@@ -1015,12 +1008,12 @@ td {
 
 @media (max-width: 576px) {
   #subcription {
-    margin-top: 60px;
+    margin-top: 45px;
     flex-direction: column;
     height: 250px;
     width: 100%;
   }
-  #sakib_h1{
+  #sakib_h1 {
     margin-top: 130px;
   }
 
@@ -1028,11 +1021,8 @@ td {
     height: 400px;
     width: 100%;
     margin-left: 5px;
-    margin-top: 20px;
-
-
   }
-  #guide{
+  #guide {
     margin-top: 50px;
   }
 
@@ -1119,25 +1109,10 @@ td {
 /* last 2 section */
 /* meet our team */
 
-#meet_our_team {
-  height: 720px;
-  width: 100%;
-  /* border: 2px solid white; */
-  justify-items: center;
-  padding: 1em;
-  margin: 0 auto;
-}
-
-#team_head {
-  height: 70px;
-  width: 100%;
-  /* border: 2px solid red; */
-  text-wrap: wrap;
-  text-align: center;
-}
+/* problem + img  */
 
 #team {
-  height: 600px;
+  height: auto;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1145,86 +1120,45 @@ td {
   padding: 1em;
   margin: 20px;
 }
+#team div {
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
+}
 #img_01 {
-  height: 250px;
-  width: 100%;
   background-image: url("./images/trainer1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
-
 #img_02 {
-  height: 250px;
-  width: 100%;
   background-image: url("./images/trainer2.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* background-position: center; */
-}
-input{
-  font-size: 1.2rem;
-  border:2px solid black;
-}
-select{
-  border:2px solid black;
-  font-size: 1.2rem;
 }
 #img_03 {
-  height: 250px;
-  width: 100%;
   background-image: url("./images/trainer3.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
-
 #img_04 {
-  height: 250px;
-  width: 100%;
   background-image: url("./images/trainer4.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
-
 #img_05 {
-  height: 250px;
-  width: 100%;
   background-image: url("./images/trainer5.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
-
 #img_06 {
-  height: 280px;
-  width: 100%;
   background-image: url("./images/trainer6.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
-
-/* problem + img  */
-.team_h2_color{
-  text-align: center;
-  color:rgb(235, 234, 234);
+.team_h2_color {
+  color: rgb(255, 255, 255);
   font-size: 1.8rem;
   margin-top: -20px;
-
 }
-.name{
+.name {
   font-size: 1.4rem;
-  color:rgb(0, 0, 0);
-  display: grid;
-  place-content: center;
+  color: rgb(187, 187, 187);
   font-weight: 500;
   margin-top: -10px;
   font-weight: 600;
 }
+
 /* how make all imge height width same */
 @media (max-width: 576px) {
   #team {
@@ -1232,43 +1166,37 @@ select{
     margin: 0 auto;
     /* img center */
   }
-  .name{
-    color:blanchedalmond;
-    margin-top: -1px;
-  }
+  
 
   #meet_our_team {
-    height: 1680px;
+    height: auto;
     width: 100%;
     margin-left: 5px;
     margin-top: 20px;
   }
-  .team-member{
-    border-radius: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .name{
+    margin-top: 1px;
+  }
 
-
-  }
-  #img_06 {
-    height: 250px;
-  }
-  #img_03 {
-    height: 220px;
-  }
-  input{
+  input {
     font-size: 1rem;
-    border:2px solid black;
+    border: 2px solid black;
   }
-  select{
-    border:2px solid black;
+  select {
+    border: 2px solid black;
     font-size: 1rem;
   }
-  .team_h2_color{
-    font-size: 1.2rem
+  .team_h2_color {
+    font-size: 1.2rem;
   }
-  
+}
+#team_head{
+  height:40px;
+  width:100%;
+  display:grid;
+  place-content: center;
+  text-align: center;
+
 }
 
 .team-member {
@@ -1341,22 +1269,15 @@ select{
 }
 
 @media (max-width: 576px) {
-
   #last_footer {
     grid-template-columns: repeat(1, 1fr);
     height: 550px;
     text-align: left;
-
   }
 
-  #twostarted{
+  #twostarted {
     text-align: left;
-
   }
-  
-  
-  
- 
 }
 
 /* input 4 */
@@ -1396,28 +1317,22 @@ select{
   border-radius: 4px;
 }
 
-
 /* not update problem face  */
 
-#right{
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+#right {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
-.last_p{
-    border-top: 1px solid rgb(212, 203, 203);
-    color:white;
+.last_p {
+  border-top: 1px solid rgb(212, 203, 203);
+  color: white;
 }
-
 
 /* input_bmi_last */
-#input_bmi_last{
-  height:50px;
-  width:100%;
-  display:flex;
+#input_bmi_last {
+  height: 50px;
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
 }
-
-
